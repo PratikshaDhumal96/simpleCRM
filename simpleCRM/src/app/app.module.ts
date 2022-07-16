@@ -8,6 +8,7 @@ import { AdminComponent } from './admin/admin.component';
 import { AdminManageComponent } from './admin-manage/admin-manage.component';
 import { AdminEditComponent } from './admin-edit/admin-edit.component';
 import { AdminDeleteComponent } from './admin-delete/admin-delete.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AdminDeleteComponent } from './admin-delete/admin-delete.component';
     AdminComponent,
     AdminManageComponent,
     AdminEditComponent,
-    AdminDeleteComponent
+    AdminDeleteComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
